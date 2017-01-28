@@ -1,0 +1,16 @@
+{
+  "name": "flight-node-mailer",
+  "version": "1.0.0",
+  "description": "Firebase reactor for email notifications of contact form submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Johnston",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "firebase-admin": "^4.0.6",
+    "nodemailer": "^2.7.2"
+  }
+}
