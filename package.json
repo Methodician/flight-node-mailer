@@ -4,7 +4,8 @@
   "description": "Firebase reactor for email notifications of contact form submission",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node reactor.js"
   },
   "author": "Jacob Johnston",
   "license": "ISC",
