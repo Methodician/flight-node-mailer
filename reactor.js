@@ -29,8 +29,8 @@ contactRef.on('child_added', function (snap, prevKey) {
             //console.log('sending an email');
             var mail = {
                 from: `${snap.val().name} <${snap.val().email}>`,
-                //to: 'info.flight.run@gmail.com, tvmendoza99@gmail.com',
-                to: 'info.flight.run@gmail.com',
+                to: 'info.flight.run@gmail.com, tvmendoza99@gmail.com',
+                //to: 'info.flight.run@gmail.com',
                 subject: `${snap.val().name} - New contact from flight.run`,
                 html:
                 `
