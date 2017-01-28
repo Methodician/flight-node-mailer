@@ -4,7 +4,7 @@ const mailer = require('nodemailer');
 
 const serviceAccount = require('./private/flight-7d05d-firebase-adminsdk-1krt5-e003f33985.json');
 const transporterInfo = require('./private/transporter.json');
-const port = process.env.port || 3000;
+const port = process.env.PORT || 3000;
 
 var app = express();
 var transporter = mailer.createTransport(transporterInfo);
